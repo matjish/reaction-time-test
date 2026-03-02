@@ -51,6 +51,7 @@ function handleInput() {
     game.style.background = "#2c3e50";
     updateText(`Your reaction time: ${reactionTime} ms\nClick or press space to try again`);
     startTime = null;
+    waitingForGreen = false;
     return;
   }
 
